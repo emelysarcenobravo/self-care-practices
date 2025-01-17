@@ -1,0 +1,662 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.home-page-background {
+  background: radial-gradient(circle at 10% 20%, rgb(89, 196, 233) 0%, rgb(193, 181, 232) 50%);
+  background-repeat: no-repeat;
+  background-size: 150% 150%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: left;
+}
+
+ .col-12 {
+    box-sizing: border-box; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+  }
+
+.detailed-view-image{
+  text-align:center; 
+  margin-bottom: 2%; 
+  display: flex; 
+  justify-content: center;
+}
+
+  .info-row a {
+    word-break: break-word;  
+    overflow-wrap: break-word;
+  }
+
+  .website-info a, .info-row a {
+    word-break: break-all; 
+    overflow-wrap: break-word;
+  }
+
+.detailed-card {
+  background-color: white; 
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 5%;
+  padding: 20px; 
+}
+
+.journal-prompts-container {
+  border-width: 2px;
+  border-color: #113f67;
+  border-radius: 20px;
+  border: 5px inset #37599d;
+  transition: transform 0.5s;
+  text-align: left;
+}
+
+.journal-prompts-container .row {
+  display: flex;
+}
+
+.journal-prompts-container .col-12 {
+  padding-right: 15px;
+}
+
+.journal-prompts-container .col-md-6 {
+  padding-left: 15px;
+}
+
+.journal-prompts-container .col-md-6:first-child {
+  border-right: 3px dotted black;
+  padding-right: 30px; 
+}
+
+.container {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.decorated-container,
+.decorated-container2 {
+  border-width: 2px;
+  border-color: #113f67;
+  border-radius: 20px;
+  border: 5px inset #37599d;
+  transition: transform 0.5s; 
+}
+
+.decorated-container3 {
+  border-width: 2px;
+  border-color: #113f67;
+  border-radius: 20px;
+  border: 5px inset #37599d;
+}
+
+.decorated-container:hover {
+  transform: scale(1.1);
+}
+
+.decorated-container2:hover {
+  transform: scale(1.05);
+}
+
+.healthy-habits-container {
+  margin-bottom: 20px;
+}
+
+.support-group-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.support-group-quote {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 18px;
+}
+
+.healthy-habits-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.meditating-girl {
+  width: 500px;
+  height: 300px;
+}
+
+.home-image,
+.support-group-image {
+  border-radius: 16px;
+}
+
+.home-image {
+  width: 370px;
+}
+
+.do-you-image {
+  width: 370px;
+  height: 370px;
+  border-radius: 15px;
+}
+
+.healthy-habits-quote {
+  width: 450px;
+  height: 370px;
+  border-radius: 15px;
+}
+
+.healthy-habit-flip-card {
+  width: 450px;
+  height: 370px;
+}
+
+.home-flip-card {
+  width: 370px;
+  height: 370px;
+}
+
+.support-group-flip-card {
+  width: 350px;
+  height: 350px;
+  margin-bottom: 4%;
+}
+
+.flip-card-list-view{
+  margin-bottom: 2%;
+}
+
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  border-radius: 15px;
+  display: block;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 15px;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  border-radius: 15px;
+}
+
+h1,h2,h3,h5,h6 .nav-link {
+  color: #113f67;
+  text-align: center;
+}
+
+.navbar-nav .nav-link {
+  transition: transform 0.5s;
+}
+
+.navbar-nav .nav-link:hover {
+  transform: scale(1.2);
+}
+
+p {
+  color: black;
+  padding: 0.5em;
+}
+
+.card-heading {
+  text-align: center;
+}
+
+.card-background {
+  background-color: lightblue;
+}
+
+.healthy-food-image {
+  width: 40%;
+  height: 100%;
+}
+
+.icon-text-container {
+  flex-wrap: wrap;
+}
+
+.icon-column {
+  margin-bottom: 20px; 
+}
+
+.icon-right {
+  text-align: right;
+  margin-left: 25%;
+}
+
+.icon-middle {
+  text-align: center;
+  margin-left: 40%;
+}
+
+.icon-left {
+  text-align: left;
+  margin-left: 30%;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-text svg {
+  margin-right: 8px;
+}
+
+.text {
+  font-size: 22px;
+}
+.sleep-image {
+  width: 40%;
+  height: 130%;
+}
+
+.water-image {
+  width: 40%;
+  height: 150%;
+}
+
+.healthy-eating-paragraph,
+.water-paragraph {
+  margin-top: 15%;
+  font-size: 26px;
+}
+.sleep-paragraph {
+  margin-top: 10%;
+  font-size: 26px;
+  font-size: 26px;
+}
+
+.break-paragraph,
+.journal-paragraph {
+  margin-top: 15%;
+}
+
+.break-image {
+  width: 40%;
+  height: 180%;
+}
+
+.journal-image {
+  width: 40%;
+  height: 100%;
+}
+
+.five-minute-meditation-video,
+.ten-minute-meditation-video {
+  border-radius: 20px;
+  height: 400px;
+}
+
+.five-minute-meditation-video {
+  max-width: 100%;
+  margin-bottom: 20%;
+  height: auto;
+}
+
+.video-container {
+  margin-bottom: 6%;
+  overflow: hidden;
+}
+
+.ratio {
+  position: relative;
+  width: 100%;
+}
+
+.ratio iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans-sc-medium {
+  font-family: "Noto Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.card-img-top {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin-top: 0 auto;
+}
+
+.card .card-img-top {
+  width: 100%;
+  max-height: 150px; 
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.card-img{
+ object-fit: contain; 
+ border-radius: 20px;
+}
+
+.card-image:hover {
+  transform: scale(1.04);
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.6);
+}
+
+img {
+  display: block;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.my-auto{
+  margin-bottom: 2%;
+}
+
+.list{
+  border-radius: 20px; 
+  height: 300px;
+}
+
+.card {
+  border-radius: 1.5rem;
+  padding: 0.5em;
+  margin-bottom: 2em;
+  width: 20em;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center; 
+}
+
+.active {
+  color: white;
+  font-weight: bold;
+}
+
+.card-image-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+.card-body {
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.business-hours{
+  display: block; 
+  margin-left: 3.6em;
+}
+
+.website-info {
+  display: flex; 
+  align-items: left; 
+  margin-left: 7px; 
+  margin-bottom: 25px; 
+  margin-top: 10px;
+}
+
+.website-info b {
+  margin-right: 10px; 
+}
+
+.hours-details {
+  margin-left: 20px; 
+  white-space: pre-line;
+}
+
+.hours-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px; 
+}
+
+.hours-container > span {
+  margin-top: 5px; 
+}
+
+.info-row span {
+  margin-right: 15px;
+  white-space: nowrap; 
+}
+
+.btn-primary{
+  display: block; 
+  width: 200px; 
+  margin: 0 auto; 
+  text-align: center; 
+  margin-bottom: 1em;
+}
+
+.card-title { 
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.info-row {
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center; 
+  margin: 10px 0;
+}
+
+.info-row p {
+  text-align: left; 
+  margin: 5px 0;
+}
+
+.logo {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto; 
+  justify-content: center; 
+  border-radius: 20px; 
+  padding: 30px;
+}
+
+.a {
+  color: #007bff; 
+  text-decoration: none; 
+}
+
+
+.a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.a:focus,
+a:active {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* MEDIA QUERY */
+/* PHONE */
+@media (max-width: 700px) {
+  .second-list {
+    margin-top: 8%;
+  }
+
+  .journal-prompts-container .col-md-6:first-child {
+    border-right: none; 
+    border-bottom: 3px dotted black;
+    padding-right: 0; 
+    padding-bottom: 15px; 
+  }
+
+  .ratio-21x9 {
+    --bs-aspect-ratio: 50%;
+  }
+
+  .home-image {
+    margin-top: 0%;
+    width: 250px;
+  }
+
+  .support-group-image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+  .home-flip-card {
+    width: 250px;
+    height: 250px;
+  }
+
+  .do-you-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+  }
+
+  .self-care-paragraph {
+    margin-top: 10%;
+    text-align: left; 
+  }
+
+  .sress-management-paragraph {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+  
+    .healthy-habit-flip-card {
+    width: 350px;
+    height: 270px;
+  }
+
+  .healthy-habits-image {
+    width: 350px;
+    height: 270px;
+  }
+
+  .healthy-habits-quote {
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+  }
+
+  .icon-right {
+    text-align: right;
+    margin-left: 25%;
+  }
+
+  .icon-middle {
+    text-align: center;
+    margin-left: 25%;
+  }
+
+  .icon-left {
+    text-align: right;
+    margin-left: 25%;
+  }
+
+  .first-video-column {
+    margin-bottom: 20%;
+  }
+}
+
+/* IPAD */
+@media (min-width: 701px) and (max-width: 1200px) {
+  .home-image {
+    width: 300px;
+  }
+
+  .flip-card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .do-you-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+  }
+
+  .self-care-paragraph {
+    margin-top: 10%;
+  }
+  
+  .sress-management-paragraph {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  
+  .healthy-habit-flip-card {
+    width: 350px;
+    height: 270px;
+  }
+  
+  .healthy-habits-image {
+    width: 350px;
+    height: 270px;
+  }
+  
+  .healthy-habits-quote {
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+  }  
+}
