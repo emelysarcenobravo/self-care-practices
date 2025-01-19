@@ -1,4 +1,4 @@
-# Self-care Practices Web Application  (blank)
+# Self-care Practices Web Application
 
 This web application emphasizes the importance of self-care and provides effective ways to do so. Additionally, it includes a list of local support groups in San Francisco and the services they provide for their members.  
 
