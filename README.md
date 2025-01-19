@@ -16,8 +16,6 @@ This web application emphasizes the importance of self-care and provides effecti
 
 ← `script.js`: Adds interactivity to my web app.
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
-
 ## I built this with Glitch!
 
 [Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
