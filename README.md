@@ -3,8 +3,7 @@
 This web application emphasizes the importance of self-care and seeking support from support groups. 
 <br>
 Link to my Web App: https://emelysarcenobravo.github.io/self-care-practices/
-
-<img width="1440" height="900" alt="Picture of index.html" src="https://github.com/user-attachments/assets/0b8257bf-f325-4cc4-bf49-d4178339d7c0" />
+<img width="1440" height="900" alt="Picture of index.html" src="https://github.com/user-attachments/assets/75fc8481-0926-43af-9e8f-a898bda27fb7" />
 <img width="1423" height="900" alt="Picture of first half of habits.html" src="https://github.com/user-attachments/assets/ef20a702-082d-4af6-932d-74a3fa937340" />
 <img width="1423" height="900" alt="Picture of second half habits.html" src="https://github.com/user-attachments/assets/4d00743d-4ae6-43c6-922c-c5c74ac38e11" />
 <img width="1423" height="900" alt="Picture of support-groups.html" src="https://github.com/user-attachments/assets/693ce9ea-e86d-4e00-8f4d-9796a5766ba8" />
