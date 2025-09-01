@@ -1,6 +1,7 @@
 # Self-care Practices Web Application
 
 This web application emphasizes the importance of self-care and seeking support from support groups. 
+<br>
 Link to my Web App: https://emelysarcenobravo.github.io/self-care-practices/
 
 <img width="1440" height="900" alt="Picture of index.html" src="https://github.com/user-attachments/assets/0b8257bf-f325-4cc4-bf49-d4178339d7c0" />
